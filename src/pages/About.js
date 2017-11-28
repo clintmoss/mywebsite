@@ -1,8 +1,6 @@
 import React from 'react'
 
-export default class extends React.Component {
-
-  render() {
+export default () => {
     return (
       <div>
       {/*
@@ -18,35 +16,24 @@ export default class extends React.Component {
               <div className="logo">
                 <h1><a href="/">Clint Mossman</a></h1>
               </div>
-              <div class="menu">
-                <a href="#" className="navicon"></a>
-                <div className="toggle effect-3">
-                  <ul className="toggle-menu">
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="about.html" className="active"> About</a></li>
-                    <li><a href="skills.html"> Skills</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="education.html">Education</a></li>
-                    <li><a href="projects.html"> My Projects</a></li>
-                    <li><a href="contact.html"> Contact Us</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div className="social-w3licon">
-                <a href="#" className="social-button twitter"><i class="fa fa-twitter"></i></a>
-                <a href="#" className="social-button facebook"><i class="fa fa-facebook"></i></a>
-                <a href="#" className="social-button google"><i class="fa fa-google-plus"></i></a>
-                <a href="#" className="social-button dribbble"><i class="fa fa-dribbble"></i></a>
-              </div>
+              <ul className="customMenu">
+                <li><a className="optionMenu" href="/"> Home</a></li>
+                <li><a className="optionMenu" href="/about"> About</a></li>
+                <li><a className="optionMenu" href="/skills"> Skills</a></li>
+                <li><a className="optionMenu" href="/experience">Experience</a></li>
+                <li><a className="optionMenu" href="/education">Education</a></li>
+                <li><a className="optionMenu" href="/myprojects"> My Projects</a></li>
+                <li><a className="optionMenu" href="/contact"> Contact Me</a></li>
+              </ul>
               <div className="clearfix"> </div>
             </div>
           </div>
           <div className="w3agile-address">
             <div className="container">
               <ul>
-                <li><i className="fa fa-map-marker" aria-hidden="true"></i>Broome St, Canada, NY 10002, New York</li>
-                <li><i className="fa fa-phone" aria-hidden="true"> </i>  +01 111 222 3333</li>
-                <li><i className="fa fa-envelope" aria-hidden="true"></i><a href="mailto:info@example.com"> mail@example.com</a></li>
+              <li><i className="fa fa-map-marker" aria-hidden="true"></i>Salt Lake City</li>
+              <li><i className="fa fa-phone" aria-hidden="true"> </i>  +01 385 255 4533</li>
+              <li><i className="fa fa-envelope" aria-hidden="true"></i><a href="mailto:clintmossman808@gmail.com">clintmossman808@gmail.com</a></li>
               </ul>
             </div>
           </div>
@@ -62,31 +49,31 @@ export default class extends React.Component {
               <img src="images/img1.jpg" class="img-responsive" alt=""/>
             </div>
             <div className="col-md-8 col-sm-8 about-right wthree">
-              <h3>Hi, im <span>Wikolia Mark </span></h3>
+              <h3>Hi, im <span>Clint Mossman </span></h3>
               <h4>Web Designer & Developer </h4>
               <ul className="address">
                 <li>
                   <ul className="agileits-address-text ">
                     <li><b>D.O.B :</b></li>
-                    <li>23-06-1980</li>
+                    <li>01-31-1995</li>
                   </ul>
                 </li>
                 <li>
                   <ul className="agileits-address-text">
                     <li><b>PHONE : </b></li>
-                    <li>+00 111 222 3333</li>
+                    <li>+01 385 2225 5867</li>
                   </ul>
                 </li>
                 <li>
                   <ul className="agileits-address-text">
                     <li><b>ADDRESS :</b></li>
-                    <li>756 global Place, North Sydney, Canada.</li>
+                    <li>Salt Lake City</li>
                   </ul>
                 </li>
                 <li>
                   <ul className="agileits-address-text">
                     <li><b>E-MAIL :</b></li>
-                    <li><a href="mailto:example@mail.com"> mail@example.com</a></li>
+                    <li><a href="mailto:example@mail.com"> clintmossman808@gmail.com</a></li>
                   </ul>
                 </li>
                 <li>
@@ -116,9 +103,10 @@ export default class extends React.Component {
             </div>
             <div className="clearfix"> </div>
             <div className="about-text agileits-w3layouts">
-              <p> Aliquam aliquet sapien quis mauris semper suscipit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse laoreet sem sit amet dolor luctus pellentesque. Pellentesque eleifend tellus at interdum elementum. Nam egestas molestie elit. Vivamus sed accumsan quam, a mollis magna. Nam aliquet eros eget sapien consequat tincidunt at vel nibh sed accumsan quam.
-              Maecenas pharetra dapibus posuere. Praesent odio sem, varius quis dolor vel, maximus dapibus mi. Pellentesque mattis mauris neque. Nam aliquam turpis ante, at cursus massa ullamcorper ut.Nam egestas molestie elit. Vivamus sed accumsan quam, a mollis magna. Nam aliquet eros eget sapien consequat tincidunt at vel nibh sed accumsan quam.
-              uspendisse laoreet sem sit amet dolor luctus pellentesque Maecenas pharetra dapibus posuere. Praesent odio sem, varius quis dolor vel, maximus dapibus mi. Pellentesque mattis mauris neque. Nam aliquam turpis ante, at cursus massa ullamcorper ut eleifend tellus at interdum elementum.</p>
+              <p>Web Development and Web Design has been new to me, but I love it. I believe that the future of the web is constantly changing
+                and brings a dynamic virtual world to users all over the world. The greatest thing, is that it provides a platform for spreading
+                content and completing tasks at a rate that allows exponential growth. It can be used to change the world and the power is all in
+                your head and in a computer thats all you need.</p>
             </div>
           </div>
         </div>
@@ -130,6 +118,5 @@ export default class extends React.Component {
       </div>
 
       </div>
-    )
-  }
+)
 }
